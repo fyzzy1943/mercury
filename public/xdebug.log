@@ -1,0 +1,25 @@
+[6192] Log opened at 2025-08-14 05:48:56.488458
+[6192] [Step Debug] INFO: Connecting to configured address/port: localhost:9003.
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] ERR: Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[6192] [Step Debug] INFO: Connecting to configured address/port: localhost:9003.
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] ERR: Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[6192] Log closed at 2025-08-14 05:48:56.700954
+
+[6192] Log opened at 2025-08-14 05:48:58.237058
+[6192] [Step Debug] INFO: Connecting to configured address/port: localhost:9003.
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] ERR: Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[6192] Log closed at 2025-08-14 05:48:58.238133
+
+[6192] Log opened at 2025-08-14 05:48:58.238656
+[6192] [Step Debug] INFO: Connecting to configured address/port: localhost:9003.
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] WARN: Creating socket for 'localhost:9003', poll success, but error: Operation now in progress (19).
+[6192] [Step Debug] ERR: Could not connect to debugging client. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[6192] Log closed at 2025-08-14 05:48:58.239618
+
