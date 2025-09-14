@@ -17,7 +17,12 @@ const breadcrumbs: BreadcrumbItem[] = [
 
     <AppLayout :breadcrumbs="breadcrumbs">
         <div class="flex h-full flex-1 flex-col gap-4 rounded-xl p-4 overflow-x-auto">
-            guesst what happdeee...
+            <div class="relative min-h-[100vh] flex-1 rounded-xl border border-sidebar-border/70 md:min-h-min dark:border-sidebar-border">
+                <PlaceholderPattern />
+                这里显示点啥？
+                <PlaceholderPattern />
+                guesst what happdeee...!! 到底是啥啊
+            </div>
         </div>
     </AppLayout>
 </template>
