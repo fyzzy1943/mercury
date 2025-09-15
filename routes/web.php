@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DallyController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\DallyController;
@@ -12,9 +13,7 @@ Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('dally', function() {
-    return Inertia::render('Dally');
-});
+Route::get('dally', [DallyController::class, 'index']);
 
 
 Route::get('dally/new', [DallyController::class, 'create'])->name('dally.create');

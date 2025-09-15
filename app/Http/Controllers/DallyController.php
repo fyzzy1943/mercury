@@ -12,7 +12,7 @@ class DallyController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Dally');
+        return Inertia::render('dally/List');
     }
 
     /**
