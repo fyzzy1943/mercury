@@ -14,8 +14,8 @@ Route::get('dashboard', function () {
 
 Route::get('dally', [DallyController::class, 'index']);
 
--Route::get('dally/new', [DallyController::class, 'create'])->name('dally.create');
--// Route::group
+Route::get('dally/new', [DallyController::class, 'create'])->name('dally.create');
+// Route::group
     
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
